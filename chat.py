@@ -57,5 +57,5 @@ def loop_lien(liens_oeuvres):
             print("Aucune information trouvée pour cette œuvre.")
 
 liens_oeuvres = get_titles_and_hrefs_from_page("https://collections.louvre.fr/recherche?page=1")
-loop_page()
+
 loop_lien(liens_oeuvres)

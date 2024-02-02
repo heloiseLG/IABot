@@ -2,15 +2,17 @@
 
 ## Qui ? 
 Nous avons travailler sur ce projet en collaboration : 
-Héloïse LE GELDRON
-Anaëlle RAVON
-Emma-Loïse QUIN HERVET
+* Héloïse LE GELDRON
+* Anaëlle RAVON
+* Emma-Loïse QUIN HERVET
 
 ## Notre projet : 
-Notre projet consiste à créer un chatbot pour aider les visiteurs du louvres dans leurs recherche d'oeuvres d'art.
-L'objectif est que les utilisateurs puisse avoir des renseignement sur des auteurs ou des oeuvres d'art facilement. 
+Le but de notre projet est de concevoir un chatbot pour assister les visiteurs du Louvre dans leurs recherches d'œuvres d'art. L'objectif principal est de permettre aux utilisateurs d'obtenir des informations facilement sur les auteurs et les œuvres d'art exposées.
 
 Image 
+
+> [!Attention]
+> Ce projet est en cours de modification.
 
 ## Installation : 
 Nous avons utilisé langchain et python afin de créer notre chatbot. 

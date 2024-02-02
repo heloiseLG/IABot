@@ -13,7 +13,7 @@ Nos objectifs sont :
 * Donner des informations pertinentes à l’utilisateur 
 * Guider l’utilisateur à travers le musée
 
-
+Voici un apreçu : 
 
 ![MVP](image.png)
 

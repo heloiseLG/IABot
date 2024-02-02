@@ -17,6 +17,7 @@ Image
 ## Installation : 
 Nous avons utilisé langchain et python afin de créer notre chatbot. 
 Voici la liste des installations : 
+```
 * pip install langchain
 * pip install pandas
 * pip install langchain_experimental
@@ -28,3 +29,5 @@ Voici la liste des installations :
 * pip install requests
 * pip install tabulate
 * pip install langsmith
+```
+test

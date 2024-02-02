@@ -7,20 +7,23 @@ Nous avons travailler sur ce projet en collaboration :
 * Emma-Loïse QUIN HERVET
 
 ## Notre projet : 
-Le but de notre projet est de concevoir un chatbot pour assister les visiteurs du Louvre dans leurs recherches d'œuvres d'art. L'objectif principal est de permettre aux utilisateurs d'obtenir des informations facilement sur les auteurs et les œuvres d'art exposées.
+Le but de notre projet est de concevoir un chatbot pour assister les visiteurs du Louvre dans leurs recherches d'œuvres d'art. Nos objectifs sont : 
+* Remplacer l’audio-guide
+* Donner des informations pertinentes à l’utilisateur 
+* Guider l’utilisateur à travers le musée
 
 Image 
 
-> [!Attention]
+![MVP](image.png)
+
 > Ce projet est en cours de modification.
 
 ## Installation : 
 Voici la liste des installations : 
 
-Nous avons utilisé Python qui permet de communiquer facilement car son langage utilise des mots-clès. 
-Vous pouvez le télécharger en suivant ce lien : https://www.python.org/downloads/windows/
+1. Python : Téléchargez Python en suivant ce lien : https://www.python.org/downloads/windows/
 
-Nous avons choisi d'utiliser LangChain qui simplifie le développement en intelligence artificielle (IA) en supprimant la complexité des intégrations de sources de données. 
+2. LanChain : LangChain simplifie le développement en intelligence artificielle (IA) en supprimant la complexité des intégrations de sources de données. Suivez les consignes d'installation suivante : 
 ```
 pip install langchain
 pip install langchain_experimental
@@ -28,15 +31,26 @@ pip install langchain-openai
 pip install openai
 pip install openai langchain sentence_transformers -q
 pip install langchain-community
+pip install langsmith
 ```
-La librairie Python Beautiful Soup permet d'extraire du contenu et de le transformer en une liste, un tableau ou un disctionnaire Python. 
+3. Beautiful Soup : Cette bibliothèque Python permet d'extraire du contenu et de le transformer en une liste, un tableau ou un dictionnaire Python.
 ```
 pip install beautifulsoup4
 ```
+
+4. Requests : Permet d'envoyer des requêtes HTTP/1.1 en utilisant Python.
 ```
 pip install requests
-pip install tabulate
-pip install langsmith
+```
+
+5. Pandas : Cette bibliothèque permet la manipulation et l'analyse de données.
+```
 pip install pandas
 ```
-test
+
+6. Autres : 
+Voici la liste des autres installations nécessaires 
+
+```
+pip install tabulate
+```

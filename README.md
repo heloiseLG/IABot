@@ -15,19 +15,26 @@ Image
 > Ce projet est en cours de modification.
 
 ## Installation : 
-Nous avons utilisé langchain et python afin de créer notre chatbot. 
 Voici la liste des installations : 
+
+Nous avons utilisé Python qui permet de communiquer facilement car son langage utilise des mots-clès. 
+Vous pouvez le télécharger en suivant ce [lien] (https://www.python.org/downloads/windows/)
+
+Nous avons choisi d'utiliser LangChain qui simplifie le développement en intelligence artificielle (IA) en supprimant la complexité des intégrations de sources de données. 
 ```
-* pip install langchain
-* pip install pandas
-* pip install langchain_experimental
-* pip install langchain-openai
-* pip install openai
-* pip install openai langchain sentence_transformers -q
-* pip install langchain-community
-* pip install beautifulsoup4
-* pip install requests
-* pip install tabulate
-* pip install langsmith
+pip install langchain
+pip install langchain_experimental
+pip install langchain-openai
+pip install openai
+pip install openai langchain sentence_transformers -q
+pip install langchain-community
+```
+
+```
+pip install beautifulsoup4
+pip install requests
+pip install tabulate
+pip install langsmith
+pip install pandas
 ```
 test

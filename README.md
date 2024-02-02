@@ -18,7 +18,7 @@ Image
 Voici la liste des installations : 
 
 Nous avons utilisé Python qui permet de communiquer facilement car son langage utilise des mots-clès. 
-Vous pouvez le télécharger en suivant ce [lien] (https://www.python.org/downloads/windows/)
+Vous pouvez le télécharger en suivant ce lien : https://www.python.org/downloads/windows/
 
 Nous avons choisi d'utiliser LangChain qui simplifie le développement en intelligence artificielle (IA) en supprimant la complexité des intégrations de sources de données. 
 ```
@@ -29,9 +29,11 @@ pip install openai
 pip install openai langchain sentence_transformers -q
 pip install langchain-community
 ```
-
+La librairie Python Beautiful Soup permet d'extraire du contenu et de le transformer en une liste, un tableau ou un disctionnaire Python. 
 ```
 pip install beautifulsoup4
+```
+```
 pip install requests
 pip install tabulate
 pip install langsmith

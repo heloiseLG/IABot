@@ -7,12 +7,13 @@ Nous avons travailler sur ce projet en collaboration :
 * Emma-Loïse QUIN HERVET
 
 ## Notre projet : 
-Le but de notre projet est de concevoir un chatbot pour assister les visiteurs du Louvre dans leurs recherches d'œuvres d'art. Nos objectifs sont : 
+Le but de notre projet est de concevoir un chatbot pour assister les visiteurs du Louvre dans leurs recherches d'œuvres d'art. 
+Nos objectifs sont : 
 * Remplacer l’audio-guide
 * Donner des informations pertinentes à l’utilisateur 
 * Guider l’utilisateur à travers le musée
 
-Image 
+
 
 ![MVP](image.png)
 

@@ -28,21 +28,26 @@ def get_infos_oeuvre(lien):
     soup = bs(html, "html.parser")
 
     titre_oeuvre = soup.find_all("h1", class_="notice__title h_1")
-    descriptions_oeuvre = soup.find_all("div", class_="m-7col m-last part__content")
 
-    # Utiliser une liste pour stocker toutes les descriptions
-    descriptions = [desc.get_text(strip=True) for desc in descriptions_oeuvre]
+    # Find all divs with class notice__fullcartel__group
+    entries = soup.find_all("div", class_="notice__fullcartel__group")
 
-    info = [
-        {
-            'Titre': titre.get_text(strip=True),
-            "Descriptions de l'oeuvre": descriptions,
-        }
-        for titre in titre_oeuvre
-    ]
+    info_oeuvre = {'Titre': titre_oeuvre[0].get_text(strip=True)}
 
-    return info
+    for entry in entries:
+        # Attempt to extract label and content
+        label_element = entry.find("div", class_="part__label")
+        content_element = entry.find("div", class_="part__content")
 
+        # Check if the elements are found
+        if label_element and content_element:
+            label = label_element.get_text(strip=True)
+            content = content_element.get_text(strip=True)
+
+            # Add label and content to info_oeuvre dictionary
+            info_oeuvre[label] = content
+
+    return [info_oeuvre]
 
 def loop_page():
     base_url = "https://collections.louvre.fr/recherche?page="
@@ -61,11 +66,11 @@ def loop_lien(liens_oeuvres):
         lien = href_url + oeuvre['href']
         info = get_infos_oeuvre(lien)
         all_data.extend(info)
-        
+
     print(all_data)
-    with open('mo.json', 'w', encoding='utf-8') as json_file:
+    with open('molo.json', 'w', encoding='utf-8') as json_file:
         json.dump(all_data, json_file, ensure_ascii=False, indent=4)
 
-liens_oeuvres = get_titles_and_hrefs_from_page("https://collections.louvre.fr/recherche?page=1")
+liens_oeuvres = get_titles_and_hrefs_from_page("https://collections.louvre.fr/recherche?page=3320")
 
 loop_lien(liens_oeuvres)

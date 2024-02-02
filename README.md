@@ -1,6 +1,6 @@
 # IABot
 
-## QUI ? 
+## Qui ? 
 Nous avons travailler sur ce projet en collaboration : 
 Héloïse LE GELDRON
 Anaëlle RAVON
@@ -15,14 +15,14 @@ Image
 ## Installation : 
 Nous avons utilisé langchain et python afin de créer notre chatbot. 
 Voici la liste des installations : 
-pip install langchain
-pip install pandas
-pip install langchain_experimental
-pip install langchain-openai
-pip install openai
-pip install openai langchain sentence_transformers -q
-pip install langchain-community
-pip install beautifulsoup4
-pip install requests
-pip install tabulate
-pip install langsmith
+* pip install langchain
+* pip install pandas
+* pip install langchain_experimental
+* pip install langchain-openai
+* pip install openai
+* pip install openai langchain sentence_transformers -q
+* pip install langchain-community
+* pip install beautifulsoup4
+* pip install requests
+* pip install tabulate
+* pip install langsmith
